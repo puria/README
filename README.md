@@ -6,12 +6,12 @@
 
 <h1 align="center">
   {project_name}</br>
-  <sub>Tagline of the project better if it's long</sub>
+  <sub>{tagline}</sub>
 </h1>
   
 <p align="center">
-  <a href="https://travis-ci.com/DECODEproject/zenroomjs">
-    <img src="https://travis-ci.com/DECODEproject/zenroomjs.svg?branch=master" alt="Build Status">
+  <a href="https://travis-ci.com/DECODEproject/{project_name}">
+    <img src="https://travis-ci.com/DECODEproject/{project_name}.svg?branch=master" alt="Build Status">
   </a>
   <a href="https://dyne.org">
     <img src="https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%9D%A4%20by-Dyne.org-blue.svg" alt="Dyne.org">
@@ -44,11 +44,6 @@
   <a href="#briefcase-license">:briefcase: License</a>
 </h4>
 
-<br><br>
-
-:construction: Zenroom and Zenroomjs are part of the [DECODE project](https://decodeproject.eu) about data-ownership and [technological sovereignty](https://www.youtube.com/watch?v=RvBRbwBm_nQ). Our effort is that of improving people's awareness of how their data is processed by algorithms, as well facilitate the work of developers to create along [privacy by design principles](https://decodeproject.eu/publications/privacy-design-strategies-decode-architecture) using algorithms that can be deployed in any situation without any change.
-
-<hr/>
 
 Abstract description like: :construction: Zenroom is a software in **ALPHA stage** and are part of the [DECODE project](https://decodeproject.eu) about data-ownership and [technological sovereignty](https://www.youtube.com/watch?v=RvBRbwBm_nQ). Our effort is that of improving people's awareness of how their data is processed by algorithms, as well facilitate the work of developers to create along [privacy by design principles](https://decodeproject.eu/publications/privacy-design-strategies-decode-architecture) using algorithms that can be deployed in any situation without any change.
 
@@ -109,7 +104,7 @@ Designed, written and maintained by Puria Nafisi Azizi.
 
 Special thanks to Mr. W. White for his special contributions.
 
-<img src="https://zenroom.dyne.org/img/ec_logo.png" class="pic" alt="Project funded by the European Commission">
+<img src="https://zenroom.dyne.org/img/ec_logo.png" width="150" alt="Project funded by the European Commission">
 
 This project is receiving funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement nr. 732546 (DECODE).
 
@@ -127,7 +122,7 @@ https://dyne.org/
 
 Please first take a look at the [Dyne.org - Contributor License Agreement](CONTRIBUTING.md) then
 
-1.  :twisted_rightwards_arrows: [FORK IT](https://github.com/puria/README/fork)
+1.  :twisted_rightwards_arrows: [FORK IT](./fork)
 2.  Create your feature branch `git checkout -b feature/branch`
 3.  Commit your changes `git commit -am 'Add some fooBar'`
 4.  Push to the branch `git push origin feature/branch`
