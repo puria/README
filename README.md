@@ -1,28 +1,63 @@
+<p align="center">
+  <a href="https://www.dyne.org">
+    <img alt="{project_name}" src="https://via.placeholder.com/150.png?text=LOGO" width="150" />
+  </a>
+</p>
+
 <h1 align="center">
-  <br>
-        <a href="{project_link}">
-                <img src="https://via.placeholder.com/150.png?text=LOGO" width="150" alt="{project_name}">
-        </a>
-  <br>
-  {project_name}
-  <br>
+  {project_name}</br>
   <sub>Tagline of the project better if it's long</sub>
 </h1>
+  
+<p align="center">
+  <a href="https://travis-ci.com/DECODEproject/zenroomjs">
+    <img src="https://travis-ci.com/DECODEproject/zenroomjs.svg?branch=master" alt="Build Status">
+  </a>
+  <a href="https://dyne.org">
+    <img src="https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%9D%A4%20by-Dyne.org-blue.svg" alt="Dyne.org">
+  </a>
+</p>
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  |
-:---:
-| [![Build Status](https://travis-ci.org/puria/readme.svg?branch=master)](https://travis-ci.org/puria/readme) [![Dyne.org](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%9D%A4%20by-Dyne.org-blue.svg)](https://dyne.org) |
+<br><br>
+
+<h4 align="center">
+  <a href="#floppy_disk-install">:floppy_disk: Install</a>
+  <span> • </span>
+  <a href="#video_game-quick-start">:video_game: Quick start</a>
+  <span> • </span>
+  <a href="#whale-docker">:whale: Docker</a>
+  <span> • </span>
+  <a href="#honeybee-api">:honeybee: API</a>
+  <span> • </span>
+  <a href="#wrench-configuration">:wrench: Configuration</a>
+  <span> • </span>
+  <a href="#clipboard-testing">:clipboard: Testing</a>
+  <span> • </span>
+  <a href="#bug-troubleshooting--debugging">:bug: Troubleshooting & debugging</a>
+  <span> • </span>
+  <a href="#heart_eyes-acknowledgements">:heart_eyes: Acknowledgements</a>
+  <span> • </span>
+  <a href="#globe_with_meridians-links">:globe_with_meridians: Links</a>
+  <span> • </span>
+  <a href="#busts_in_silhouette-contributing">:busts_in_silhouette: Contributing</a>
+  <span> • </span>
+  <a href="#briefcase-license">:briefcase: License</a>
+</h4>
+
+<br><br>
+
+:construction: Zenroom and Zenroomjs are part of the [DECODE project](https://decodeproject.eu) about data-ownership and [technological sovereignty](https://www.youtube.com/watch?v=RvBRbwBm_nQ). Our effort is that of improving people's awareness of how their data is processed by algorithms, as well facilitate the work of developers to create along [privacy by design principles](https://decodeproject.eu/publications/privacy-design-strategies-decode-architecture) using algorithms that can be deployed in any situation without any change.
 
 <hr/>
 
-Abstract description like::construction: Zenroom is a software in **ALPHA stage** and are part of the [DECODE project](https://decodeproject.eu) about data-ownership and [technological sovereignty](https://www.youtube.com/watch?v=RvBRbwBm_nQ). Our effort is that of improving people's awareness of how their data is processed by algorithms, as well facilitate the work of developers to create along [privacy by design principles](https://decodeproject.eu/publications/privacy-design-strategies-decode-architecture) using algorithms that can be deployed in any situation without any change.
+Abstract description like: :construction: Zenroom is a software in **ALPHA stage** and are part of the [DECODE project](https://decodeproject.eu) about data-ownership and [technological sovereignty](https://www.youtube.com/watch?v=RvBRbwBm_nQ). Our effort is that of improving people's awareness of how their data is processed by algorithms, as well facilitate the work of developers to create along [privacy by design principles](https://decodeproject.eu/publications/privacy-design-strategies-decode-architecture) using algorithms that can be deployed in any situation without any change.
 
 
 <details>
  <summary><strong>:triangular_flag_on_post: Table of Contents</strong> (click to expand)</summary>
 
 * [Install](#floppy_disk-install)
-* [Usage](#video_game-usage)
+* [Quick start](#video_game-quick-start)
 * [Docker](#whale-docker)
 * [API](#honeybee-api)
 * [Configuration](#wrench-configuration)
@@ -39,7 +74,7 @@ Abstract description like::construction: Zenroom is a software in **ALPHA stage*
 ```pip install / yard add {project_name}```
 
 ***
-## :video_game: Usage
+## :video_game: Quick start
 
 To start using {project_name} just (fill with real documentation)
 
@@ -102,17 +137,18 @@ Please first take a look at the [Dyne.org - Contributor License Agreement](CONTR
 
 ***
 ## :briefcase: License
-
+    {project_name} - {tagline}
     Copyright (c) 2019 Dyne.org foundation, Amsterdam
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.
 
-        http://www.apache.org/licenses/LICENSE-2.0
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
