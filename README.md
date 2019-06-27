@@ -122,7 +122,7 @@ https://dyne.org/
 
 Please first take a look at the [Dyne.org - Contributor License Agreement](CONTRIBUTING.md) then
 
-1.  :twisted_rightwards_arrows: [FORK IT](fork)
+1.  :twisted_rightwards_arrows: [FORK IT](../../fork)
 2.  Create your feature branch `git checkout -b feature/branch`
 3.  Commit your changes `git commit -am 'Add some fooBar'`
 4.  Push to the branch `git push origin feature/branch`
