@@ -8,7 +8,7 @@
   {project_name}</br>
   <sub>{tagline}</sub>
 </h1>
-  
+
 <p align="center">
   <a href="https://travis-ci.com/DECODEproject/{project_name}">
     <img src="https://travis-ci.com/DECODEproject/{project_name}.svg?branch=master" alt="Build Status">
@@ -21,60 +21,60 @@
 <br><br>
 
 <h4 align="center">
-  <a href="#floppy_disk-install">:floppy_disk: Install</a>
+  <a href="#-install">💾 Install</a>
   <span> • </span>
-  <a href="#video_game-quick-start">:video_game: Quick start</a>
+  <a href="#-quick-start">🎮 Quick start</a>
   <span> • </span>
-  <a href="#whale-docker">:whale: Docker</a>
+  <a href="#-docker">🐋 Docker</a>
   <span> • </span>
-  <a href="#honeybee-api">:honeybee: API</a>
+  <a href="#-api">🐝 API</a>
   <span> • </span>
-  <a href="#wrench-configuration">:wrench: Configuration</a>
+  <a href="#-configuration">🔧 Configuration</a>
   <span> • </span>
-  <a href="#clipboard-testing">:clipboard: Testing</a>
+  <a href="#-testing">📋 Testing</a>
   <span> • </span>
-  <a href="#bug-troubleshooting--debugging">:bug: Troubleshooting & debugging</a>
+  <a href="#-troubleshooting--debugging">🐛 Troubleshooting & debugging</a>
   <span> • </span>
-  <a href="#heart_eyes-acknowledgements">:heart_eyes: Acknowledgements</a>
+  <a href="#-acknowledgements">😍 Acknowledgements</a>
   <span> • </span>
-  <a href="#globe_with_meridians-links">:globe_with_meridians: Links</a>
+  <a href="#-links">🌐 Links</a>
   <span> • </span>
-  <a href="#busts_in_silhouette-contributing">:busts_in_silhouette: Contributing</a>
+  <a href="#-contributing">👤 Contributing</a>
   <span> • </span>
-  <a href="#briefcase-license">:briefcase: License</a>
+  <a href="#-license">💼 License</a>
 </h4>
 
 
-Abstract description like: :construction: Zenroom is a software in **ALPHA stage** and are part of the [DECODE project](https://decodeproject.eu) about data-ownership and [technological sovereignty](https://www.youtube.com/watch?v=RvBRbwBm_nQ). Our effort is that of improving people's awareness of how their data is processed by algorithms, as well facilitate the work of developers to create along [privacy by design principles](https://decodeproject.eu/publications/privacy-design-strategies-decode-architecture) using algorithms that can be deployed in any situation without any change.
+Abstract description like: 🚧 Zenroom is a software in **ALPHA stage** and are part of the [DECODE project](https://decodeproject.eu) about data-ownership and [technological sovereignty](https://www.youtube.com/watch?v=RvBRbwBm_nQ). Our effort is that of improving people's awareness of how their data is processed by algorithms, as well facilitate the work of developers to create along [privacy by design principles](https://decodeproject.eu/publications/privacy-design-strategies-decode-architecture) using algorithms that can be deployed in any situation without any change.
 
 
 <details>
- <summary><strong>:triangular_flag_on_post: Table of Contents</strong> (click to expand)</summary>
+ <summary><strong>🚩 Table of Contents</strong> (click to expand)</summary>
 
-* [Install](#floppy_disk-install)
-* [Quick start](#video_game-quick-start)
-* [Docker](#whale-docker)
-* [API](#honeybee-api)
-* [Configuration](#wrench-configuration)
-* [Testing](#clipboard-testing)
-* [Troubleshooting & debugging](#bug-troubleshooting--debugging)
-* [Acknowledgements](#heart_eyes-acknowledgements)
-* [Links](#globe_with_meridians-links)
-* [Contributing](#busts_in_silhouette-contributing)
-* [License](#briefcase-license)
+* [Install](#-install)
+* [Quick start](#-quick-start)
+* [Docker](#-docker)
+* [API](#-api)
+* [Configuration](#-configuration)
+* [Testing](#-testing)
+* [Troubleshooting & debugging](#-troubleshooting--debugging)
+* [Acknowledgements](#-acknowledgements)
+* [Links](#-links)
+* [Contributing](#-contributing)
+* [License](#-license)
 </details>
 
 ***
-## :floppy_disk: Install
+## 💾 Install
 ```pip install / yard add {project_name}```
 
 ***
-## :video_game: Quick start
+## 🎮 Quick start
 
 To start using {project_name} just (fill with real documentation)
 
 ***
-## :whale: Docker
+## 🐋 Docker
 
 ```bash
 docker build -t {project_name} .
@@ -82,23 +82,22 @@ docker run --rm -it {project_name}
 ```
 
 ***
-## :honeybee: API
+## 🐝 API
 
 ***
-## :wrench: Configuration
+## 🔧 Configuration
 
 ***
 
-## :clipboard: Testing
+## 📋 Testing
 
 ***
-## :bug: Troubleshooting & debugging
-
+## 🐛 Troubleshooting & debugging
 
 ***
-## :heart_eyes: Acknowledgements
+## 😍 Acknowledgements
 
-Copyright :copyright: 2019 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
+Copyright © 2019 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
 
 Designed, written and maintained by Puria Nafisi Azizi.
 
@@ -110,7 +109,7 @@ This project is receiving funding from the European Union’s Horizon 2020 resea
 
 
 ***
-## :globe_with_meridians: Links
+## 🌐 Links
 
 https://www.somelink.io/
 
@@ -118,20 +117,20 @@ https://dyne.org/
 
 
 ***
-## :busts_in_silhouette: Contributing
+## 👤 Contributing
 
 Please first take a look at the [Dyne.org - Contributor License Agreement](CONTRIBUTING.md) then
 
-1.  :twisted_rightwards_arrows: [FORK IT](../../fork)
+1.  🔀 [FORK IT](../../fork)
 2.  Create your feature branch `git checkout -b feature/branch`
 3.  Commit your changes `git commit -am 'Add some fooBar'`
 4.  Push to the branch `git push origin feature/branch`
 5.  Create a new Pull Request
-6.  :pray: Thank you
+6.  🙏 Thank you
 
 
 ***
-## :briefcase: License
+## 💼 License
     {project_name} - {tagline}
     Copyright (c) 2019 Dyne.org foundation, Amsterdam
 
