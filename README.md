@@ -48,7 +48,7 @@
 Abstract description like: 🚧 Zenroom is a software in **ALPHA stage** and are part of the [DECODE project](https://decodeproject.eu) about data-ownership and [technological sovereignty](https://www.youtube.com/watch?v=RvBRbwBm_nQ). Our effort is that of improving people's awareness of how their data is processed by algorithms, as well facilitate the work of developers to create along [privacy by design principles](https://decodeproject.eu/publications/privacy-design-strategies-decode-architecture) using algorithms that can be deployed in any situation without any change.
 
 
-<details>
+<details id="toc">
  <summary><strong>🚩 Table of Contents</strong> (click to expand)</summary>
 
 * [Install](#-install)
@@ -67,6 +67,7 @@ Abstract description like: 🚧 Zenroom is a software in **ALPHA stage** and are
 ***
 ## 💾 Install
 ```pip install / yard add {project_name}```
+
 
 ***
 ## 🎮 Quick start
@@ -129,6 +130,8 @@ Please first take a look at the [Dyne.org - Contributor License Agreement](CONTR
 6.  🙏 Thank you
 
 
+**[🔝 back to top](#toc)**
+
 ***
 ## 💼 License
     {project_name} - {tagline}
@@ -146,3 +149,5 @@ Please first take a look at the [Dyne.org - Contributor License Agreement](CONTR
 
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+**[🔝 back to top](#toc)**
