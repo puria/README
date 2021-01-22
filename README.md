@@ -100,7 +100,7 @@ docker run --rm -it {project_name}
 
 [![software by Dyne.org](https://files.dyne.org/software_by_dyne.png)](http://www.dyne.org)
 
-Copyright 🄯 2021 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
+Copyleft (ɔ) 2021 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
 
 Designed, written and maintained by Puria Nafisi Azizi.
 
@@ -132,7 +132,7 @@ Please first take a look at the [Dyne.org - Contributor License Agreement](CONTR
 ***
 ## 💼 License
     {project_name} - {tagline}
-    Copyright (c) 2021 Dyne.org foundation, Amsterdam
+    Copyleft (ɔ) 2021 Dyne.org foundation, Amsterdam
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
