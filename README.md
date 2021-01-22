@@ -82,18 +82,28 @@ docker build -t {project_name} .
 docker run --rm -it {project_name}
 ```
 
+**[🔝 back to top](#toc)**
+
 ***
 ## 🐝 API
 
+**[🔝 back to top](#toc)**
+
 ***
 ## 🔧 Configuration
+
+**[🔝 back to top](#toc)**
 
 ***
 
 ## 📋 Testing
 
+**[🔝 back to top](#toc)**
+
 ***
 ## 🐛 Troubleshooting & debugging
+
+**[🔝 back to top](#toc)**
 
 ***
 ## 😍 Acknowledgements
@@ -106,6 +116,8 @@ Designed, written and maintained by Puria Nafisi Azizi.
 
 Special thanks to Mr. W. White for his special contributions.
 
+**[🔝 back to top](#toc)**
+
 ***
 ## 🌐 Links
 
@@ -113,6 +125,7 @@ https://www.somelink.io/
 
 https://dyne.org/
 
+**[🔝 back to top](#toc)**
 
 ***
 ## 👤 Contributing
