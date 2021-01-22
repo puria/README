@@ -98,16 +98,13 @@ docker run --rm -it {project_name}
 ***
 ## 😍 Acknowledgements
 
-Copyright © 2019 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
+[![software by Dyne.org](https://files.dyne.org/software_by_dyne.png)](http://www.dyne.org)
+
+Copyright 🄯 2021 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
 
 Designed, written and maintained by Puria Nafisi Azizi.
 
 Special thanks to Mr. W. White for his special contributions.
-
-<img src="https://zenroom.dyne.org/img/ec_logo.png" width="150" alt="Project funded by the European Commission">
-
-This project is receiving funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement nr. 732546 (DECODE).
-
 
 ***
 ## 🌐 Links
@@ -135,7 +132,7 @@ Please first take a look at the [Dyne.org - Contributor License Agreement](CONTR
 ***
 ## 💼 License
     {project_name} - {tagline}
-    Copyright (c) 2019 Dyne.org foundation, Amsterdam
+    Copyright (c) 2021 Dyne.org foundation, Amsterdam
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
