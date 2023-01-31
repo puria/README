@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="https://www.dyne.org">
-    <img alt="{project_name}" src="https://via.placeholder.com/150.png?text=LOGO" width="150" />
-  </a>
-</p>
+
 
 <h1 align="center">
   {project_name}</br>
@@ -10,11 +6,8 @@
 </h1>
 
 <p align="center">
-  <a href="https://travis-ci.com/DECODEproject/{project_name}">
-    <img src="https://travis-ci.com/DECODEproject/{project_name}.svg?branch=master" alt="Build Status">
-  </a>
   <a href="https://dyne.org">
-    <img src="https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%9D%A4%20by-Dyne.org-blue.svg" alt="Dyne.org">
+    <img src="https://files.dyne.org/software_by_dyne.png" width="222">
   </a>
 </p>
 
@@ -45,7 +38,26 @@
 </h4>
 
 
-Abstract description like: 🚧 Zenroom is a software in **ALPHA stage** and are part of the [DECODE project](https://decodeproject.eu) about data-ownership and [technological sovereignty](https://www.youtube.com/watch?v=RvBRbwBm_nQ). Our effort is that of improving people's awareness of how their data is processed by algorithms, as well facilitate the work of developers to create along [privacy by design principles](https://decodeproject.eu/publications/privacy-design-strategies-decode-architecture) using algorithms that can be deployed in any situation without any change.
+<p align="center">
+  <a href="https://www.interfacerproject.eu/">
+    <img alt="Interfacer project" src="https://dyne.org/images/projects/Interfacer_logo_color.png" width="350" />
+  </a>
+</p>
+
+### Building the digital infrastructure for Fab Cities
+
+This project is part of INTERFACER.
+
+**What is INTERFACER?**
+
+The goal of the INTERFACER project is to build the open-source digital infrastructure for Fab Cities.
+
+Our vision is to promote a green, resilient, and digitally-based mode of production and consumption that enables the greatest possible sovereignty, empowerment and participation of citizens all over the world.
+We want to help Fab Cities to produce everything they consume by 2054 on the basis of collaboratively developed and globally shared data in the commons.
+
+To know more [DOWNLOAD THE WHITEPAPER](https://www.interfacerproject.eu/assets/news/whitepaper/IF-WhitePaper_DigitalInfrastructureForFabCities.pdf)
+
+
 
 
 <details id="toc">
@@ -108,9 +120,13 @@ docker run --rm -it {project_name}
 ***
 ## 😍 Acknowledgements
 
-[![software by Dyne.org](https://files.dyne.org/software_by_dyne.png)](http://www.dyne.org)
+<p align="center">
+  <a href="https://dyne.org">
+    <img src="https://files.dyne.org/software_by_dyne.png" width="222">
+  </a>
+</p>
 
-Copyleft (ɔ) 2021 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
+Copyleft (ɔ) 2022 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
 
 Designed, written and maintained by Puria Nafisi Azizi.
 
@@ -121,7 +137,7 @@ Special thanks to Mr. W. White for his special contributions.
 ***
 ## 🌐 Links
 
-https://www.somelink.io/
+https://www.interfacer.eu/
 
 https://dyne.org/
 
@@ -129,8 +145,6 @@ https://dyne.org/
 
 ***
 ## 👤 Contributing
-
-Please first take a look at the [Dyne.org - Contributor License Agreement](CONTRIBUTING.md) then
 
 1.  🔀 [FORK IT](../../fork)
 2.  Create your feature branch `git checkout -b feature/branch`
@@ -145,7 +159,7 @@ Please first take a look at the [Dyne.org - Contributor License Agreement](CONTR
 ***
 ## 💼 License
     {project_name} - {tagline}
-    Copyleft (ɔ) 2021 Dyne.org foundation, Amsterdam
+    Copyleft (ɔ) 2022 Dyne.org foundation
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
