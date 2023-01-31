@@ -33,7 +33,7 @@ To know more [DOWNLOAD THE WHITEPAPER](https://www.interfacerproject.eu/assets/n
 
 {screenshot}
 
-# [LIVE DEMO](https://live-demo.com)
+# [LIVE DEMO](https://https://interfacer-gui-staging.dyne.org/)
 
 <br>
 
@@ -64,7 +64,11 @@ To know more [DOWNLOAD THE WHITEPAPER](https://www.interfacerproject.eu/assets/n
 ***
 ## 🎮 Quick start
 
-To start using {project_name} just (fill with real documentation)
+To start using {project_name} run the following command in the root folder
+
+```bash
+docker compose up
+```
 
 **[🔝 back to top](#toc)**
 
@@ -72,14 +76,31 @@ To start using {project_name} just (fill with real documentation)
 ## 🐋 Docker
 
 ```bash
-docker build -t {project_name} .
-docker run --rm -it {project_name}
+docker pull
 ```
 
 **[🔝 back to top](#toc)**
 
 ***
 ## 🐝 API
+
+Available endpoints
+
+### POST /token
+
+Execute a transaction with some amount
+
+**Parameters**
+
+|          Name | Required |  Type   | Description       | 
+| -------------:|:--------:|:-------:| ------------------|
+|       `token` | required | string  | Type of token. Accepted values `idea` or `strength`  |
+|       `amount`| required | number  | Transaction's token amount |
+|       `owner` | required | ULID    | The ULID of the Agent's owner |
+ 
+### GET /token/${request.token}/${request.owner}
+
+Retrieves the actual value of the token type for the specified owner
 
 **[🔝 back to top](#toc)**
 
