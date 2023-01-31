@@ -1,54 +1,26 @@
+<div align="center">
 
+# {project_name}
 
-<h1 align="center">
-  {project_name}</br>
-  <sub>{tagline}</sub>
-</h1>
+### {tagline}
+
+</div>
 
 <p align="center">
   <a href="https://dyne.org">
-    <img src="https://files.dyne.org/software_by_dyne.png" width="222">
+    <img src="https://files.dyne.org/software_by_dyne.png" width="170">
   </a>
 </p>
 
-<br><br>
+## Building the digital infrastructure for Fab Cities
 
-<h4 align="center">
-  <a href="#-install">💾 Install</a>
-  <span> • </span>
-  <a href="#-quick-start">🎮 Quick start</a>
-  <span> • </span>
-  <a href="#-docker">🐋 Docker</a>
-  <span> • </span>
-  <a href="#-api">🐝 API</a>
-  <span> • </span>
-  <a href="#-configuration">🔧 Configuration</a>
-  <span> • </span>
-  <a href="#-testing">📋 Testing</a>
-  <span> • </span>
-  <a href="#-troubleshooting--debugging">🐛 Troubleshooting & debugging</a>
-  <span> • </span>
-  <a href="#-acknowledgements">😍 Acknowledgements</a>
-  <span> • </span>
-  <a href="#-links">🌐 Links</a>
-  <span> • </span>
-  <a href="#-contributing">👤 Contributing</a>
-  <span> • </span>
-  <a href="#-license">💼 License</a>
-</h4>
+<br>
+<a href="https://www.interfacerproject.eu/">
+  <img alt="Interfacer project" src="https://dyne.org/images/projects/Interfacer_logo_color.png" width="350" />
+</a>
+<br>
 
-
-<p align="center">
-  <a href="https://www.interfacerproject.eu/">
-    <img alt="Interfacer project" src="https://dyne.org/images/projects/Interfacer_logo_color.png" width="350" />
-  </a>
-</p>
-
-### Building the digital infrastructure for Fab Cities
-
-This project is part of INTERFACER.
-
-**What is INTERFACER?**
+### What is **INTERFACER?**
 
 The goal of the INTERFACER project is to build the open-source digital infrastructure for Fab Cities.
 
@@ -57,34 +29,44 @@ We want to help Fab Cities to produce everything they consume by 2054 on the bas
 
 To know more [DOWNLOAD THE WHITEPAPER](https://www.interfacerproject.eu/assets/news/whitepaper/IF-WhitePaper_DigitalInfrastructureForFabCities.pdf)
 
+## {project_name} Features
 
+{screenshot}
 
+# [LIVE DEMO](https://live-demo.com)
 
-<details id="toc">
- <summary><strong>🚩 Table of Contents</strong> (click to expand)</summary>
+<br>
 
-* [Install](#-install)
-* [Quick start](#-quick-start)
-* [Docker](#-docker)
-* [API](#-api)
-* [Configuration](#-configuration)
-* [Testing](#-testing)
-* [Troubleshooting & debugging](#-troubleshooting--debugging)
-* [Acknowledgements](#-acknowledgements)
-* [Links](#-links)
-* [Contributing](#-contributing)
-* [License](#-license)
-</details>
+<div id="toc">
+
+### 🚩 Table of Contents
+
+- [💾 Install](#-install)
+- [🎮 Quick start](#-quick-start)
+- [🐋 Docker](#-docker)
+- [🐝 API](#-api)
+- [🔧 Configuration](#-configuration)
+- [📋 Testing](#-testing)
+- [🐛 Troubleshooting & debugging](#-troubleshooting--debugging)
+- [😍 Acknowledgements](#-acknowledgements)
+- [🌐 Links](#-links)
+- [👤 Contributing](#-contributing)
+- [💼 License](#-license)
+
+</div>
 
 ***
 ## 💾 Install
 ```pip install / yard add {project_name}```
 
+**[🔝 back to top](#toc)**
 
 ***
 ## 🎮 Quick start
 
 To start using {project_name} just (fill with real documentation)
+
+**[🔝 back to top](#toc)**
 
 ***
 ## 🐋 Docker
@@ -120,11 +102,9 @@ docker run --rm -it {project_name}
 ***
 ## 😍 Acknowledgements
 
-<p align="center">
-  <a href="https://dyne.org">
-    <img src="https://files.dyne.org/software_by_dyne.png" width="222">
-  </a>
-</p>
+<a href="https://dyne.org">
+  <img src="https://files.dyne.org/software_by_dyne.png" width="222">
+</a>
 
 Copyleft (ɔ) 2022 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
 
