@@ -75,9 +75,8 @@ docker compose up
 ***
 ## 🐋 Docker
 
-```bash
-docker pull
-```
+Please refer to [DOCKER PACKAGES](../../packages)
+
 
 **[🔝 back to top](#toc)**
 
