@@ -1,0 +1,3 @@
+[submodule ".reuse"]
+	path = .reuse
+	url = https://github.com/interfacerproject/reuse
