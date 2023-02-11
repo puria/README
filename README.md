@@ -1,3 +1,4 @@
+
 <p align="center">
   <a href="https://www.dyne.org">
     <img alt="{project_name}" src="https://via.placeholder.com/150.png?text=LOGO" width="150" />
@@ -110,7 +111,7 @@ docker run --rm -it {project_name}
 
 [![software by Dyne.org](https://files.dyne.org/software_by_dyne.png)](http://www.dyne.org)
 
-Copyleft (ɔ) 2021 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
+Copyleft (ɔ) 2023 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
 
 Designed, written and maintained by Puria Nafisi Azizi.
 
