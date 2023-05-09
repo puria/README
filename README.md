@@ -62,6 +62,20 @@ docker compose up
 **[🔝 back to top](#toc)**
 
 ***
+## 🚑️ Community & Support
+
+**[📝 Documentation](#toc)** - Getting started and more.
+**[🌱 Ecosystem](https://github.com/dyne/ecosystem)** - Plugins, resources, and more.
+**[🚩 Issues](../../issues)** - Bugs end errors you encounter using {project_name}.
+**[💬 Discussions](../../discussions)** - Get help, ask questions, request features, and discuss {project_name}.
+**[[] Matrix](https://socials.dyne.org/matrix)** - Hanging out with the community.
+**[🗣️ Discord](https://socials.dyne.org/discord)** - Hanging out with the community.
+**[🪁 Telegram](https://socials.dyne.org/telegram)** - Hanging out with the community.
+**[📖 Example](https://github.com/{project_name}/example)** - An example repository that uses {project_name}.
+
+**[🔝 back to top](#toc)**
+
+***
 ## 🐋 Docker
 
 Please refer to [DOCKER PACKAGES](../../packages)
@@ -122,20 +136,6 @@ Copyleft 🄯 2023 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
 Designed, written and maintained by Puria Nafisi Azizi.
 
 Special thanks to Mr. W. White for his special contributions.
-
-**[🔝 back to top](#toc)**
-
-***
-## 🚑️ Community & Support
-
-**[📝 Documentation](#toc)** - Getting started and more.
-**[🌱 Ecosystem](https://github.com/dyne/ecosystem)** - Plugins, resources, and more.
-**[🚩 Issues](../../issues)** - Bugs end errors you encounter using {project_name}.
-**[💬 Discussions](../../discussions)** - Get help, ask questions, request features, and discuss {project_name}.
-**[[] Matrix](https://socials.dyne.org/matrix)** - Hanging out with the community.
-**[🗣️ Discord](https://socials.dyne.org/discord)** - Hanging out with the community.
-**[🪁 Telegram](https://socials.dyne.org/telegram)** - Hanging out with the community.
-**[📖 Example](https://github.com/{project_name}/example)** - An example repository that uses {project_name}.
 
 **[🔝 back to top](#toc)**
 
