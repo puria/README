@@ -31,13 +31,13 @@
 
 - [💾 Install](#-install)
 - [🎮 Quick start](#-quick-start)
+- [🚑️ Community & support](#-community--support)
 - [🐋 Docker](#-docker)
 - [🐝 API](#-api)
 - [🔧 Configuration](#-configuration)
 - [📋 Testing](#-testing)
 - [🐛 Troubleshooting & debugging](#-troubleshooting--debugging)
 - [😍 Acknowledgements](#-acknowledgements)
-- [🌐 Links](#-links)
 - [👤 Contributing](#-contributing)
 - [💼 License](#-license)
 
@@ -126,9 +126,16 @@ Special thanks to Mr. W. White for his special contributions.
 **[🔝 back to top](#toc)**
 
 ***
-## 🌐 Links
+## 🚑️ Community & Support
 
-https://dyne.org/
+**[📝 Documentation](#toc)** - Getting started and more.
+**[🌱 Ecosystem](https://github.com/dyne/ecosystem)** - Plugins, resources, and more.
+**[🚩 Issues](../../issues)** - Bugs end errors you encounter using {project_name}.
+**[💬 Discussions](../../discussions)** - Get help, ask questions, request features, and discuss {project_name}.
+**[[] Matrix](https://socials.dyne.org/matrix)** - Hanging out with the community.
+**[🗣️ Discord](https://socials.dyne.org/discord)** - Hanging out with the community.
+**[🪁 Telegram](https://socials.dyne.org/telegram)** - Hanging out with the community.
+**[📖 Example](https://github.com/{project_name}/example)** - An example repository that uses {project_name}.
 
 **[🔝 back to top](#toc)**
 
