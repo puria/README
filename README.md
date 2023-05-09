@@ -1,92 +1,95 @@
+<div align="center">
+
+# {project_name}
+
+### {tagline}
+
+</div>
 
 <p align="center">
-  <a href="https://www.dyne.org">
-    <img alt="{project_name}" src="https://via.placeholder.com/150.png?text=LOGO" width="150" />
-  </a>
-</p>
-
-<h1 align="center">
-  {project_name}</br>
-  <sub>{tagline}</sub>
-</h1>
-
-<p align="center">
-  <a href="https://travis-ci.com/DECODEproject/{project_name}">
-    <img src="https://travis-ci.com/DECODEproject/{project_name}.svg?branch=master" alt="Build Status">
-  </a>
   <a href="https://dyne.org">
-    <img src="https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%9D%A4%20by-Dyne.org-blue.svg" alt="Dyne.org">
+    <img src="https://files.dyne.org/software_by_dyne.png" width="170">
   </a>
 </p>
 
+
+---
 <br><br>
 
-<h4 align="center">
-  <a href="#-install">💾 Install</a>
-  <span> • </span>
-  <a href="#-quick-start">🎮 Quick start</a>
-  <span> • </span>
-  <a href="#-docker">🐋 Docker</a>
-  <span> • </span>
-  <a href="#-api">🐝 API</a>
-  <span> • </span>
-  <a href="#-configuration">🔧 Configuration</a>
-  <span> • </span>
-  <a href="#-testing">📋 Testing</a>
-  <span> • </span>
-  <a href="#-troubleshooting--debugging">🐛 Troubleshooting & debugging</a>
-  <span> • </span>
-  <a href="#-acknowledgements">😍 Acknowledgements</a>
-  <span> • </span>
-  <a href="#-links">🌐 Links</a>
-  <span> • </span>
-  <a href="#-contributing">👤 Contributing</a>
-  <span> • </span>
-  <a href="#-license">💼 License</a>
-</h4>
 
+## {project_name} Features
 
-Abstract description like: 🚧 Zenroom is a software in **ALPHA stage** and are part of the [DECODE project](https://decodeproject.eu) about data-ownership and [technological sovereignty](https://www.youtube.com/watch?v=RvBRbwBm_nQ). Our effort is that of improving people's awareness of how their data is processed by algorithms, as well facilitate the work of developers to create along [privacy by design principles](https://decodeproject.eu/publications/privacy-design-strategies-decode-architecture) using algorithms that can be deployed in any situation without any change.
+{screenshot}
 
+# [LIVE DEMO](https://https://interfacer-gui-staging.dyne.org/)
 
-<details id="toc">
- <summary><strong>🚩 Table of Contents</strong> (click to expand)</summary>
+<br>
 
-* [Install](#-install)
-* [Quick start](#-quick-start)
-* [Docker](#-docker)
-* [API](#-api)
-* [Configuration](#-configuration)
-* [Testing](#-testing)
-* [Troubleshooting & debugging](#-troubleshooting--debugging)
-* [Acknowledgements](#-acknowledgements)
-* [Links](#-links)
-* [Contributing](#-contributing)
-* [License](#-license)
-</details>
+<div id="toc">
+
+### 🚩 Table of Contents
+
+- [💾 Install](#-install)
+- [🎮 Quick start](#-quick-start)
+- [🐋 Docker](#-docker)
+- [🐝 API](#-api)
+- [🔧 Configuration](#-configuration)
+- [📋 Testing](#-testing)
+- [🐛 Troubleshooting & debugging](#-troubleshooting--debugging)
+- [😍 Acknowledgements](#-acknowledgements)
+- [🌐 Links](#-links)
+- [👤 Contributing](#-contributing)
+- [💼 License](#-license)
+
+</div>
 
 ***
 ## 💾 Install
 ```pip install / yard add {project_name}```
 
 
+**[🔝 back to top](#toc)**
+
 ***
 ## 🎮 Quick start
 
-To start using {project_name} just (fill with real documentation)
-
-***
-## 🐋 Docker
+To start using {project_name} run the following command in the root folder
 
 ```bash
-docker build -t {project_name} .
-docker run --rm -it {project_name}
+docker compose up
 ```
 
 **[🔝 back to top](#toc)**
 
 ***
+## 🐋 Docker
+
+Please refer to [DOCKER PACKAGES](../../packages)
+
+
+**[🔝 back to top](#toc)**
+
+***
 ## 🐝 API
+
+Available endpoints
+
+### POST /token
+
+Execute a transaction with some amount
+
+**Parameters**
+
+|          Name | Required |  Type   | Description       | 
+| -------------:|:--------:|:-------:| ------------------|
+|       `token` | required | string  | Type of token. Accepted values `idea` or `strength`  |
+|       `amount`| required | number  | Transaction's token amount |
+|       `owner` | required | ULID    | The ULID of the Agent's owner |
+ 
+### GET /token/${request.token}/${request.owner}
+
+Retrieves the actual value of the token type for the specified owner
+
 
 **[🔝 back to top](#toc)**
 
@@ -109,9 +112,12 @@ docker run --rm -it {project_name}
 ***
 ## 😍 Acknowledgements
 
-[![software by Dyne.org](https://files.dyne.org/software_by_dyne.png)](http://www.dyne.org)
+<a href="https://dyne.org">
+  <img src="https://files.dyne.org/software_by_dyne.png" width="222">
+</a>
 
-Copyleft (ɔ) 2023 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
+
+Copyleft 🄯 2023 by [Dyne.org](https://www.dyne.org) foundation, Amsterdam
 
 Designed, written and maintained by Puria Nafisi Azizi.
 
@@ -121,8 +127,6 @@ Special thanks to Mr. W. White for his special contributions.
 
 ***
 ## 🌐 Links
-
-https://www.somelink.io/
 
 https://dyne.org/
 
@@ -135,9 +139,9 @@ Please first take a look at the [Dyne.org - Contributor License Agreement](CONTR
 
 1.  🔀 [FORK IT](../../fork)
 2.  Create your feature branch `git checkout -b feature/branch`
-3.  Commit your changes `git commit -am 'Add some fooBar'`
+3.  Commit your changes `git commit -am 'feat: New feature\ncloses #398'`
 4.  Push to the branch `git push origin feature/branch`
-5.  Create a new Pull Request
+5.  Create a new Pull Request `gh pr create -f`
 6.  🙏 Thank you
 
 
@@ -146,7 +150,7 @@ Please first take a look at the [Dyne.org - Contributor License Agreement](CONTR
 ***
 ## 💼 License
     {project_name} - {tagline}
-    Copyleft (ɔ) 2021 Dyne.org foundation, Amsterdam
+    Copyleft 🄯 2023 Dyne.org foundation, Amsterdam
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
