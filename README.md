@@ -62,7 +62,7 @@ docker compose up
 **[🔝 back to top](#toc)**
 
 ***
-## 🚑️ Community & Support
+## 🚑️ Community & support
 
 **[📝 Documentation](#toc)** - Getting started and more.
 **[🌱 Ecosystem](https://github.com/dyne/ecosystem)** - Plugins, resources, and more.
